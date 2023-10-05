@@ -1,8 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
-import { StyleSheet, Text, View ,FlatList} from 'react-native';
-import { initializeApp, getApps } from "firebase/app";
-import { getFirestore, setDoc, doc, collection, onSnapshot, addDoc } from 'firebase/firestore';
+import { View ,FlatList} from 'react-native';
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, onSnapshot, addDoc } from 'firebase/firestore';
 import {Appbar, Button, TextInput} from 'react-native-paper';
 import TodoC from './todo';
 
